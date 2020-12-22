@@ -13,9 +13,9 @@
 
     <a-scene embedded arjs='sourceType: webcam;'>
 
-      <a-box position='0 0.5 0' color='red'></a-box>
-
-      <a-text value="Look at \n my red cube" color="white" position="0 0.6 -0.8" rotation="-90 0 0" align="center"></a-text>
+       <a-assets>
+         <a-asset-item id="donut" src="assets/donut.gltf"></a-asset-item>
+       </a-assets>
 
       <a-marker-camera preset='hiro'></a-marker-camera>
 
